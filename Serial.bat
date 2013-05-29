@@ -7,4 +7,3 @@ MODE COM%COM%: baud=9600 parity=N data=8 stop=1
     SET/P content=Input data to send:
     echo %content% > com%COM%
     goto LOOP
-
